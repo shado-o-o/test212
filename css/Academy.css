@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+html {
+    font-size: 15px;
+    font-family:  'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #08090a;
+}
+.navbar{ 
+     background-color: #24292F;
+     width: 100%;
+     z-index: 999;
+}
+.navbar-toggler i{
+    color: #0bf587;
+}
+.navbar-brand{
+    color: #ffffff;
+    padding-right: 20px;
+    margin-left: 25px;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.navbar-brand span{
+    font-size: 10px;
+    color: #0bf587;
+}
+.navbar-brand:hover{
+    color: #0bf587;
+}
+.navbar-brand i{
+    margin-right: 10px;
+    color: #0bf587;
+}
+.navbar-nav .nav-link{
+    color: #ffffff;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.navbar-nav .nav-link i{
+  padding-right: 4px;
+}
+.navbar-nav .nav-link:hover{
+    color: #0bf587;
+}
+#in{
+    margin-left: 10px;
+    color: #ffffff;
+    border-radius: 15px;
+}
+#up{
+    margin-left: 10px;
+    color: #ffffff;
+    background-color: #00ff8898;
+    border-radius:15px ;
+}
+#in:hover,
+#up:hover{
+ background-color: #0bf587;
+}
+.btn-outline-success {
+    color: #0bf587;
+    border-color: hsl(152, 92%, 50%);
+}
+.btn-outline-success:hover{
+    color: #0bf587;
+    background-color: #15a160;
+}
+.dropdown-menu{ 
+    background-color: black;
+    color: #ffffff;
+    border-top:1px solid #0bf587;
+    padding-top: 5px;
+    
+}
+.dropdown-item{
+ color: #ffffff;
+ transition: 0.5s;
+}
+.dropdown-item:hover{
+    background-color: #0bf587;
+    transform:translateX(9px);
+    
+}
+.nav-item .dropdown{
+    transition: 0.5s;
+}
+/* strat the web face  */
+.home{
+    padding-top: 51px;
+    width: 100%;
+    height: 100%;
+    background: url(../image/123.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.container{
+    padding-top: 90px;
+    color: #ffffff;
+}
+#im-home{
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+    padding-bottom: 10px;
+    
+}
+form .form-label{
+    color: #ebf1f7e3;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+form .form-control{
+    background: #24292f88;
+}
+.home h1{
+    padding-bottom: 15px;
+    color: #fbfffd;
+font-size: 2.6em;
+font-weight: 600;
+}
+.home h1 span{
+    color: #0bf587;
+    font-size: 0.3em;
+}
+.home h4{
+  font-size: 1.9em;
+}
+.home .btn{
+    margin-top: 15px;
+    margin-left: 10px;
+    
+}
+ .home form {
+    padding-bottom: 30px;
+}
+.tranding{
+    padding-top: 15px;
+    width: 100%;
+    height: 100%;
+   
+}
+
+.tranding h1{
+    width: 100%;
+    font-size: 3em;
+    font-weight: 600;
+    color: #f8e7e7;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #4a5252;
+}
+
+.tranding h1 i{
+    color: gold;
+    padding-right: 5px;
+}
+.TheBooks h5{
+    margin-right: 15px;
+    font-size: 2em;
+    font-weight: 600;
+    color: #fbfffd;
+  
+}
+
+.books img{
+    width: 90%;
+    height: 400px;
+    width: 250px !important;
+    margin-left:38%;
+}
+.TheBooks .btn{
+    margin-top: 10px;
+    font-weight: 500;
+}
+.move h5{
+    margin-right: 15px;
+    font-size: 2em;
+    font-weight: 600;
+    color: #fbfffd;
+}
+.move img{
+    width: 90%;
+    height: 400px;
+}
+.move .btn{
+    margin-top: 10px;
+    font-weight: 500;
+}
+.manga .btn{
+    margin-top: 10px;
+    font-weight: 500;
+}
+.manga img{
+    width: 90%;
+    height: 400px;
+}
+.manga h5{
+    margin-right: 15px;
+    font-size: 2em;
+    font-weight: 600;
+    color: #fbfffd;
+}
